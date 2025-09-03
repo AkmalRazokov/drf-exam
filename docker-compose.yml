@@ -18,7 +18,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=anderground
-      - POSTGRES_DB=my_db
+      - POSTGRES_DB=exam_finance
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
